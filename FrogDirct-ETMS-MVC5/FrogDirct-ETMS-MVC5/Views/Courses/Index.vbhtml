@@ -4,7 +4,8 @@
 End Code
 
     <div class="col-xs-9">
-        <h3><span class="glyphicon glyphicon-dashboard"></span> Training Course Dashboard</h3>
+             <h3 class="hidden-xs"><span class="glyphicon glyphicon-dashboard"></span> Training Course Dashboard</h3>
+        <h3 class="visible-xs">Course Dashboard</h3>
     </div>
     <div class="col-xs-3 ">
         <span class="hidden-xs">  <br /><b> @Html.ActionLink("Create a new Course", "Create", "Cources", New With {.class = "btn btn-primary pull-right "})</b></span>

@@ -1,7 +1,8 @@
 ﻿@ModelType IEnumerable(Of Employees)
 
 <div class="col-xs-9">
-    <h3><span class="glyphicon glyphicon-dashboard"></span> EmployeeTraining Dashboard</h3>
+    <h3 class="hidden-xs"><span class="glyphicon glyphicon-dashboard"></span> Employee Training Dashboard</h3>
+    <h3 class="visible-xs">Emp. Training Dashboard</h3>
 </div>
 <div class="col-xs-3 ">
     <span class="hidden-xs">  <br /><b> @Html.ActionLink("Create a new assignment", "Create", "Employees", New With {.class = "btn btn-primary pull-right "})</b></span> 
